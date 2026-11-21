@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script>
+        var age = 18
+        var minage = 20
+
+        if (age < minage) {
+            console.log(`you must have ${minage} to enter this website, and you have just ${age}`);
+        }
+        else {
+            console.log(`congratulations you have the minimal age to enter this website, minage =${minage}`);
+        }
+
+        var windowquest = window.prompt('whats your name?')
+        var windowresponse = window.alert(`you must be ${windowquest}`)
+    </script>
+</body>
+</html>

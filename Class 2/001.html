@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Metodos DOM e arvores DOM</h1>
+    <h1>another H1</h1>
+
+    <p id="p1">this is the p</p>
+
+    <h2 class="h2class">nothing h2</h2>
+    <h2 class="h2class">nothing h2.1</h2>
+    <h2 class="h2class">nothing h2.2</h2>
+    
+    <script>
+        window.document.writeln("window.document.write")
+
+        window.document.writeln(window.document.characterSet)
+
+        window.document.writeln(window.navigator)
+
+        window.document.writeln(document.body.parentElement)
+
+        document.body.style.background = 'ligthblue'
+
+        const h1 = document.getElementsByTagName("h1")
+        console.log(h1)
+        h1[0].style.color = 'yellow'
+        h1[1].style.color = 'ligthgray'
+
+        let par1 = document.getElementById("p1")
+        par1.style.color = 'yellow'
+        par1.style.fontSize = '1.5em'
+
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let inf = {
+            name:"nics",
+            lastname:"Heel",
+            age: 17,
+            envelhecer (e) {
+                e += 1
+                return `yor age now is ${e}`
+            },
+            work: "undefined",
+            newWork (w) {
+                return "now you have tour own bussines and work for the google and microsoft"
+            }
+        }
+
+        inf.name = `Nics yay`
+
+        console.log(inf.envelhecer(inf.age))
+        console.log(inf.newWork(inf.work))
+        console.log(inf)
+
+
+        let person = {
+            name:"nics",
+            lastname:"heel",
+            sayWsp () {
+                return `nics said wsp, my name is ${this.name} ${this.lastname}`
+            }
+        }
+
+        console.log(person.sayWsp())
+    </script>
+</body>
+</html>
